@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Index page</title>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <!-- Checking the usability of a button -->
+    <h1>Changing content in the html element</h1>
+    <button id="button" onclick="clickMe()">Click me</button>
+    <br>
+    <!-- Changing html element using a button -->
+    <span id="ChangingText">No change</span>
+
+    <br><br><br>
+
+    <!-- Getting input from text field and displaying it in the alert box  -->
+    <h1>Getting input from user and showing it in alert box</h1>
+    <input id="name" placeholder="Enter your name">
+    <br>
+    <button id="alterButton" onclick="showAlert()">Click Here</button>
+
+    <br><br><br>
+    <h1>Getting username and password are equal</h1>
+    Username: <input id="username" type="text" placeholder="Enter your username"><br>
+    Password: <input id="userpass" type="password" placeholder="Enter your password"><br>
+    <input id="Check" type="submit" onclick="validatingData()" value="Check here"><br>
+
+    <!-- Try to get value from a radio button -->
+    <h1>Getting input from radio button</h1>
+    <input type="radio" id="Value1" name="Result" value="Value1">Input 1</input>
+    <br>
+    <input type="radio" id="Value2" name="Result" value="Value2">Input 2</input>
+    <br>
+    <button onclick="radioInput()">Click me</button>
+
+    <!-- Try to get value from a dropdown list -->
+    <h1>Getting input from dropdown list</h1>
+    <select id="SelectBoxId">
+        <option value="Option1">Option 1</option>
+        <option value="Option2">Option 2</option>
+        <option value="Option3">Option 3</option>
+    </select><br>
+    <button onclick="dropdownInput()">Click here</button>
+
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <p>Paragraph 3</p>
+    <p>Paragraph 4</p>
+    <p>Paragraph 5</p>
+    <p>Paragraph 6</p>
+    <button onclick="tagInput()">Surprise me</button>
+
+</body>
+
+</html>
